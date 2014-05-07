@@ -1,0 +1,103 @@
+--[[
+	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	without permission of its author (kurozael@gmail.com).
+--]]
+
+Clockwork.kernel:AddFile("materials/models/weapons/temptexture/handsmesh1.vtf");
+Clockwork.kernel:AddFile("materials/models/weapons/temptexture/handsmesh1.vmt");
+Clockwork.kernel:AddFile("models/weapons/v_sledgehammer/v_sledgehammer.mdl");
+Clockwork.kernel:AddFile("materials/models/props_lab/exp_objects01.vtf");
+Clockwork.kernel:AddFile("materials/models/props_lab/exp_objects01.vmt");
+Clockwork.kernel:AddFile("materials/models/items/ammocrate_safebox.vtf");
+Clockwork.kernel:AddFile("materials/models/items/ammocrate_safebox.vmt");
+Clockwork.kernel:AddFile("materials/models/items/itemcrate_exper.vtf");
+Clockwork.kernel:AddFile("materials/models/items/itemcrate_exper.vmt");
+Clockwork.kernel:AddFile("models/humans/group03/male_experim.mdl");
+Clockwork.kernel:AddFile("materials/models/weapons/v_katana/katana.vtf");
+Clockwork.kernel:AddFile("materials/models/weapons/v_katana/katana.vmt");
+Clockwork.kernel:AddFile("models/items/ammocrate_safebox.mdl");
+Clockwork.kernel:AddFile("models/items/item_item_exper.mdl");
+Clockwork.kernel:AddFile("materials/victories/achieved.png");
+Clockwork.kernel:AddFile("materials/augments/augmented.png");
+Clockwork.kernel:AddFile("models/weapons/v_shovel/v_shovel.mdl");
+Clockwork.kernel:AddFile("models/weapons/v_axe/v_axe.mdl");
+Clockwork.kernel:AddFile("materials/models/weapons/sledge.vtf");
+Clockwork.kernel:AddFile("materials/models/weapons/sledge.vmt");
+Clockwork.kernel:AddFile("materials/models/weapons/shovel.vtf");
+Clockwork.kernel:AddFile("materials/models/weapons/shovel.vmt");
+Clockwork.kernel:AddFile("materials/models/weapons/axe.vtf");
+Clockwork.kernel:AddFile("materials/models/weapons/axe.vmt");
+Clockwork.kernel:AddFile("models/weapons/w_sledgehammer.mdl");
+Clockwork.kernel:AddFile("materials/phasefour/bg_gradient.png");
+Clockwork.kernel:AddFile("materials/phasefour/scratch.png");
+Clockwork.kernel:AddFile("materials/phasefour/dirty.png");
+Clockwork.kernel:AddFile("materials/icon16/star.png");
+Clockwork.kernel:AddFile("resource/fonts/dirtyego.ttf");
+Clockwork.kernel:AddFile("models/pmc/pmc_4/pmc__07.mdl");
+Clockwork.kernel:AddFile("models/props_lab/exp01a.mdl");
+Clockwork.kernel:AddFile("models/weapons/w_katana.mdl");
+Clockwork.kernel:AddFile("models/weapons/v_katana.mdl");
+Clockwork.kernel:AddFile("models/weapons/w_shovel.mdl");
+Clockwork.kernel:AddFile("models/tactical_rebel.mdl");
+Clockwork.kernel:AddFile("models/weapons/w_axe.mdl");
+Clockwork.kernel:AddFile("models/riot_ex2.mdl");
+Clockwork.kernel:AddFile("models/sprayca2.mdl");
+Clockwork.kernel:AddFile("models/spx7.mdl");
+Clockwork.kernel:AddFile("models/spx2.mdl");
+Clockwork.kernel:AddFile("models/spex.mdl");
+
+Clockwork.kernel:AddDirectory("materials/models/player/slow/aot/salem/");
+Clockwork.kernel:AddDirectory("materials/models/player/slow/napalm_atc/");
+Clockwork.kernel:AddDirectory("materials/models/player/slow/nailgunner/");
+Clockwork.kernel:AddDirectory("materials/models/player/slow/bio_suit/");
+Clockwork.kernel:AddDirectory("materials/models/humans/male/group01/labcit*.*");
+Clockwork.kernel:AddDirectory("materials/models/humans/female/group01/labcit*.*");
+Clockwork.kernel:AddDirectory("materials/models/humans/male/experim/");
+Clockwork.kernel:AddDirectory("materials/models/player/riex/");
+Clockwork.kernel:AddDirectory("materials/models/pmc/pmc_shared/");
+Clockwork.kernel:AddDirectory("materials/models/gasmask/tac_rbe/");
+Clockwork.kernel:AddDirectory("materials/models/kevlarvest/");
+Clockwork.kernel:AddDirectory("materials/models/stalker/sx/");
+Clockwork.kernel:AddDirectory("materials/models/stalker/mx/");
+Clockwork.kernel:AddDirectory("materials/models/stalker/fx/");
+Clockwork.kernel:AddDirectory("materials/models/stalker/dx/");
+Clockwork.kernel:AddDirectory("materials/models/banditv/");
+Clockwork.kernel:AddDirectory("materials/models/pmc/pmc_4/");
+Clockwork.kernel:AddDirectory("materials/models/h3_spartan/");
+Clockwork.kernel:AddDirectory("models/humans/group60/*.mdl");
+Clockwork.kernel:AddDirectory("models/humans/group61/*.mdl");
+Clockwork.kernel:AddDirectory("models/humans/group62/*.mdl");
+Clockwork.kernel:AddDirectory("models/kevlarvest/*.mdl");
+Clockwork.kernel:AddDirectory("materials/victories/");
+Clockwork.kernel:AddDirectory("models/napalm_atc/*.mdl");
+Clockwork.kernel:AddDirectory("models/nailgunner/*.mdl");
+Clockwork.kernel:AddDirectory("materials/augments/");
+Clockwork.kernel:AddDirectory("models/salem/*.mdl");
+Clockwork.kernel:AddDirectory("models/bio_suit/*.mdl");
+Clockwork.kernel:AddDirectory("models/srp/*.mdl");
+
+Clockwork.config:Add("intro_text_small", "You find it's just as screwed up outside.", true);
+Clockwork.config:Add("intro_text_big", "WHEN YOU LEAVE THE CONFINES OF THE LAB", true);
+Clockwork.config:Add("alliance_cost", 2000, true);
+Clockwork.config:Add("max_safebox_weight", 30, true);
+
+Clockwork.config:Get("scale_attribute_progress"):Set(0.5);
+Clockwork.config:Get("enable_gravgun_punt"):Set(false);
+Clockwork.config:Get("default_inv_weight"):Set(8);
+Clockwork.config:Get("armor_chest_only"):Set(false);
+Clockwork.config:Get("enable_crosshair"):Set(false);
+Clockwork.config:Get("minimum_physdesc"):Set(16);
+Clockwork.config:Get("scale_prop_cost"):Set(0.2);
+Clockwork.config:Get("scale_head_dmg"):Set(2);
+Clockwork.config:Get("disable_sprays"):Set(false);
+Clockwork.config:Get("wages_interval"):Set(360);
+Clockwork.config:Get("default_cash"):Set(120);
+
+Clockwork.hint:Add("Admins", "The admins are here to help you, please respect them.");
+Clockwork.hint:Add("Grammar", "Try to speak correctly in-character, and don't use emoticons.");
+Clockwork.hint:Add("Healing", "You can heal players by using the Give command in your belongings.");
+Clockwork.hint:Add("Healing", "You will gain honor for healing good characters with medical equipment.");
+Clockwork.hint:Add("Zip Tie", "Press F3 while looking at a character to use a zip tie.");
+Clockwork.hint:Add("Alliance", "You can create an alliance by using the command $command_prefix$AllyCreate.");
+Clockwork.hint:Add("F4 Hotkey", "Press F4 to open up the hotkey menu, you can bind hotkeys in your belongings.");
+Clockwork.hint:Add("Search Char", "Press F3 while looking at a tied character to search them.");
